@@ -1,3 +1,5 @@
+package employees;
+
 public class Employee 
 {
     private String fullName;
@@ -25,6 +27,6 @@ public class Employee
 
     public String toString() 
     {
-        return "Emplyee: " + fullName + ", Salary: " + salary;
+        return "Employee: " + fullName + ", Salary: " + salary;
     }
 }
